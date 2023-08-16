@@ -56,6 +56,6 @@ jobs:
       uses: github/codeql-action/analyze@v2
 
     # Submit Maven Dependency Tree to GitHub
-    - name: Maven Dependency Tree Dependency Submission
-      if: matrix.language == 'java'
-      uses: advanced-security/maven-dependency-submission-action@v3.0.2
+    #- name: Maven Dependency Tree Dependency Submission
+    #  if: matrix.language == 'java'
+    #  uses: advanced-security/maven-dependency-submission-action@v3.0.2
