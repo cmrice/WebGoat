@@ -47,7 +47,7 @@ jobs:
         # [optional] enabled extended queries
         # queries: +security-extended,security-and-quality
         # [optional] Field Config - standard packs, extensions, and extra packs
-        config-file: advanced-security/codeql-queries/config/codeql.yml@main
+        #config-file: advanced-security/codeql-queries/config/codeql.yml@main
 
     - name: Autobuild
       uses: github/codeql-action/autobuild@v2
