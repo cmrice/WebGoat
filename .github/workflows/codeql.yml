@@ -13,9 +13,10 @@ permissions:
   contents: read
   security-events: write
 
-#env:
+env:
   # in the future, this flag will not be needed
   #CODEQL_EXTRACTOR_JAVA_RUN_ANNOTATION_PROCESSORS: true
+  CODEQL_JAVA_LOMBOK=true
 
 jobs:
   analyze:
